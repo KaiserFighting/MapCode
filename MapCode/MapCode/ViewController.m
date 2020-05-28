@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     self.title = @"地图";
-    
+    NSLog(@"master分支提交");
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(0, 0, 180, 150);
     btn.center = self.view.center;
